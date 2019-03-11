@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pdfsam-alternate-mix" />
+        <module name="pdfsam-basic" />
+        <module name="pdfsam-core" />
+        <module name="pdfsam-extract" />
+        <module name="pdfsam-fx" />
+        <module name="pdfsam-gui" />
+        <module name="pdfsam-i18n" />
+        <module name="pdfsam-merge" />
+        <module name="pdfsam-rotate" />
+        <module name="pdfsam-service" />
+        <module name="pdfsam-simple-split" />
+        <module name="pdfsam-split-by-bookmarks" />
+        <module name="pdfsam-split-by-size" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
