@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06fc886a-f99c-4524-a262-1ab02ac5b639" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pdfsam-fx/target/" />
@@ -33,8 +32,20 @@
       <file leaf-file-name="ConversionUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+            <state relative-caret-position="651">
+              <caret line="62" column="105" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageRange.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/pdf/page/PageRange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -49,6 +60,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>zip</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -131,6 +147,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alternatemix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +289,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552349176496</updated>
-      <workItem from="1552349181072" duration="1174000" />
+      <workItem from="1552349181072" duration="2225000" />
     </task>
     <task id="LOCAL-00001" summary="selection debug">
       <created>1552349367991</created>
@@ -284,11 +305,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552349703555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="selection debug">
+      <created>1552350363849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552350363849</updated>
+    </task>
+    <task id="LOCAL-00004" summary="selection debug">
+      <created>1552350859820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552350859820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1174000" />
+    <option name="totallyTimeSpent" value="2225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -342,10 +377,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/pdf/page/PageRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-basic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="373" column="39" lean-forward="true" selection-start-line="373" selection-start-column="39" selection-end-line="373" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        <state relative-caret-position="651">
+          <caret line="62" column="105" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

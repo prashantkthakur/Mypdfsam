@@ -54,13 +54,13 @@ public final class ConversionUtils {
             for (String current : tokens) {
                 LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: current page= {}",current);
                 PageRange range = toPageRange(current);
-                LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: range start = {0}; end={1}, range={2}",
-                        range.getStart(), range.getEnd(),range.toString());
+                LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: range start = {}; end={}, range={}", range.getStart(), range.getEnd(),range.toString());
                 if (range.getEnd() < range.getStart()) {
                     throw new ConversionException(
                             DefaultI18nContext.getInstance().i18n("Invalid range: {0}.", range.toString()));
                 }
                 pageRangeSet.add(range);
+                LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: range added = {}",range);
             }
             return pageRangeSet;
         }
