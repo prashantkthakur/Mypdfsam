@@ -236,6 +236,7 @@
 									<goal>single</goal>
 								</goals>
 								<configuration>
+									<attach>false</attach>
 									<finalName>pdfsam-${project.version}-${os.detected.name}</finalName>
 									<appendAssemblyId>false</appendAssemblyId>
 									<descriptors>
