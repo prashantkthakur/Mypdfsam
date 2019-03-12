@@ -80,7 +80,9 @@ public final class ConversionUtils {
                             // Remove 50 as it is included in 41-80
                             if (item.getStart() == item.getEnd() && item.getStart() >=tmpRange.getStart() && item.getEnd() <=tmpRange.getEnd()){
                                 pageRangeSet.remove(item);
-                                update = false;
+//                                if (tmpRange.getStart() == range.getStart() &&  tmpRange.getEnd() == range.getEnd()){
+//                                    update=false;
+//                                }
                                 continue;
                             }
 
@@ -89,6 +91,7 @@ public final class ConversionUtils {
                                 tmpStart++;
                             }
                             if (tmpStart > tmpRange.getEnd()) {
+                                update = false;
                                 continue;
                             }
                             tmpRange = toPageRange(tmpStart + "-" + tmpRange.getEnd());
@@ -97,12 +100,15 @@ public final class ConversionUtils {
                     }
                     LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: SKIPPED range added = {}; update={}",tmpRange,update);
                     if (update) {
-                        LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: tmp range added = {}",tmpRange);
                         pageRangeSet.add(tmpRange);
                     }
                 }else {
                     LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: else range added = {}",range);
                     pageRangeSet.add(range);
+                }
+                for(PageRange item:pageRangeSet){
+                    LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: Final range = {}",item.toString());
+
                 }
 //                pageRangeSet.add(range);
 //                LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: range added = {}",range);
