@@ -91,8 +91,10 @@ public final class ConversionUtils {
                         }
 
                     }
+                    LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: tmp range added = {}",tmpRange);
                     pageRangeSet.add(tmpRange);
                 }else {
+                    LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: else range added = {}",range);
                     pageRangeSet.add(range);
                 }
 //                pageRangeSet.add(range);
