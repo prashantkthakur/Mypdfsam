@@ -48,13 +48,14 @@ public final class ConversionUtils {
      */
     public static Set<PageRange> toPageRangeSet(String selection) throws ConversionException {
         LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: selection = {}",selection);
-        System.out.println("SYSOUT:: "+selection);
         if (isNotBlank(selection)) {
             Set<PageRange> pageRangeSet = new NullSafeSet<>();
             String[] tokens = splitAndTrim(selection, ",");
             for (String current : tokens) {
                 LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: current page= {}",current);
                 PageRange range = toPageRange(current);
+                LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: range start = {0}; end={1}, range={2}",
+                        range.getStart(), range.getEnd(),range.toString());
                 if (range.getEnd() < range.getStart()) {
                     throw new ConversionException(
                             DefaultI18nContext.getInstance().i18n("Invalid range: {0}.", range.toString()));
