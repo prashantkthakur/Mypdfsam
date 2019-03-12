@@ -47,6 +47,7 @@ public final class ConversionUtils {
      * @return the {@link PageRange} set for the given string, an empty set otherwise.
      */
     public static Set<PageRange> toPageRangeSet(String selection) throws ConversionException {
+        LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: selection =",selection);
         if (isNotBlank(selection)) {
             Set<PageRange> pageRangeSet = new NullSafeSet<>();
             String[] tokens = splitAndTrim(selection, ",");
