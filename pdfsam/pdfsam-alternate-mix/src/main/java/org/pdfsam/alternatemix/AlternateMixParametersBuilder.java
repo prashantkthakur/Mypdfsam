@@ -62,7 +62,7 @@ class AlternateMixParametersBuilder extends AbstractPdfOutputParametersBuilder<A
         params.setExistingOutputPolicy(existingOutput());
         params.setVersion(getVersion());
         params.setOutput(output);
-        LOG.info("AMPBuilder:: BUG::: input_size={0}",inputs.size());
+        LOG.info("AMPBuilder:: BUG::: input_size={}",inputs.size());
         inputs.forEach(params::addInput);
         return params;
     }
