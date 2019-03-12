@@ -62,7 +62,7 @@ public final class ConversionUtils {
                 /* TODO- Check if the range already present in the pageRangeSet */
                 if (!pageRangeSet.isEmpty()) {
                     PageRange tmpRange = range;
-                    boolean update;
+                    boolean update = true;
                     for (PageRange item : pageRangeSet) {
                         update = true;
                         // 1-9 present | new 2-6
