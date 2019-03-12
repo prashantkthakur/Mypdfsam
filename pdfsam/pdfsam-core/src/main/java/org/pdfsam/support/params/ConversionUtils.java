@@ -101,7 +101,7 @@ public final class ConversionUtils {
                         }
 
                     }
-                    LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: SKIPPED range added = {}; update={}",tmpRange,update);
+                    LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: SKIP-CHECK range added = {}; update={}",tmpRange,update);
                     if (update) {
                         pageRangeSet.add(tmpRange);
                     }
