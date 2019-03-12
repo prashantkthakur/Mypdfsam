@@ -47,12 +47,12 @@ public final class ConversionUtils {
      * @return the {@link PageRange} set for the given string, an empty set otherwise.
      */
     public static Set<PageRange> toPageRangeSet(String selection) throws ConversionException {
-        LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: selection =",selection);
+        LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: selection ={0}",selection);
         if (isNotBlank(selection)) {
             Set<PageRange> pageRangeSet = new NullSafeSet<>();
             String[] tokens = splitAndTrim(selection, ",");
             for (String current : tokens) {
-                LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: current page=",current);
+                LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: current page={0}",current);
                 PageRange range = toPageRange(current);
                 if (range.getEnd() < range.getStart()) {
                     throw new ConversionException(
