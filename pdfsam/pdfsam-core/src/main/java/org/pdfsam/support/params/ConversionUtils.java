@@ -62,8 +62,9 @@ public final class ConversionUtils {
                 /* TODO- Check if the range already present in the pageRangeSet */
                 if (!pageRangeSet.isEmpty()) {
                     PageRange tmpRange = range;
-                    boolean update = true;
+                    boolean update;
                     for (PageRange item : pageRangeSet) {
+                        update = true;
                         // 1-9 present | new 2-6
                         if (tmpRange.getEnd() <= item.getEnd()) {
                             update = false;
@@ -80,6 +81,8 @@ public final class ConversionUtils {
                             // Remove 50 as it is included in 41-80
                             if (item.getStart() == item.getEnd() && item.getStart() >=tmpRange.getStart() && item.getEnd() <=tmpRange.getEnd()){
                                 pageRangeSet.remove(item);
+                                LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: REMOVED item={}; tmprange={}",item.toString(),tmpRange.toString());
+
 //                                if (tmpRange.getStart() == range.getStart() &&  tmpRange.getEnd() == range.getEnd()){
 //                                    update=false;
 //                                }

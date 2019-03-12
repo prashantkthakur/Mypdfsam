@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06fc886a-f99c-4524-a262-1ab02ac5b639" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-basic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pdfsam-fx/target/" />
@@ -78,8 +77,8 @@
       <file leaf-file-name="ConversionUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="99" column="108" selection-start-line="99" selection-start-column="108" selection-end-line="99" selection-end-column="108" />
+            <state relative-caret-position="389">
+              <caret line="83" column="124" selection-start-line="83" selection-start-column="124" selection-end-line="83" selection-end-column="124" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -348,7 +347,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552349176496</updated>
-      <workItem from="1552349181072" duration="13049000" />
+      <workItem from="1552349181072" duration="14659000" />
     </task>
     <task id="LOCAL-00001" summary="selection debug">
       <created>1552349367991</created>
@@ -413,11 +412,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552364001710</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixing missed test case #3">
+      <created>1552365193046</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552365193046</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixing missed test case #3;Testing">
+      <created>1552366257770</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552366257770</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13049000" />
+    <option name="totallyTimeSpent" value="14659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -466,7 +479,9 @@
     <MESSAGE value="selection debug" />
     <MESSAGE value="Fixed Change#3 and Tested" />
     <MESSAGE value="Testing size #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing size #2" />
+    <MESSAGE value="Fixing missed test case #3" />
+    <MESSAGE value="Fixing missed test case #3;Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing missed test case #3;Testing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/pdf/page/PagesSelection.java">
@@ -792,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="99" column="108" selection-start-line="99" selection-start-column="108" selection-end-line="99" selection-end-column="108" />
+        <state relative-caret-position="389">
+          <caret line="83" column="124" selection-start-line="83" selection-start-column="124" selection-end-line="83" selection-end-column="124" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
