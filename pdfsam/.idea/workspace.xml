@@ -3,746 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="06fc886a-f99c-4524-a262-1ab02ac5b639" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixParametersBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixParametersBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-alternate-mix/target/classes/org/pdfsam/alternatemix/AlternateMixModule$ModuleConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-alternate-mix/target/classes/org/pdfsam/alternatemix/AlternateMixModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-alternate-mix/target/classes/org/pdfsam/alternatemix/AlternateMixParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-alternate-mix/target/classes/org/pdfsam/alternatemix/AlternateMixSelectionPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-alternate-mix/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-alternate-mix/target/test-classes/org/pdfsam/alternatemix/AlternateMixParametersBuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-alternate-mix/target/test-classes/org/pdfsam/alternatemix/AlternateMixSelectionPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ConfigurableProperty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/Pdfsam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ShutdownEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/context/BooleanUserPreference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/context/DefaultUserContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/context/IntUserPreference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/context/StringUserPreference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/context/UserContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/ClearUsageRequestEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/Module.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/ModuleCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/ModuleDescriptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/ModuleDescriptorBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/ModuleInputOutputType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/ModuleKeyValueItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/ModuleOwned.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/ModulePriority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/RequiredPdfData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/module/TaskExecutionRequestEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/news/FetchLatestNewsRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/news/HideNewsPanelRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/news/LatestNewsEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/news/NewImportantNewsEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/news/NewsData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/news/ShowNewsPanelRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/pdf/PdfDescriptorLoadingStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/pdf/PdfDocumentDescriptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/pdf/PdfDocumentDescriptorProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/pdf/PdfLoadRequestEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/premium/FetchPremiumModulesRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/premium/PremiumModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/premium/PremiumModulesEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/premium/PremiumProduct$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/premium/PremiumProduct$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/premium/PremiumProduct$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/premium/PremiumProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/CircularLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/EncryptionUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/KeyStringValueItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/KeyValueItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/LRUMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/LocaleKeyValueItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/ObservableAtomicReference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/RequireUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/XmlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/filter/BaseFileChooserFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/filter/FileFilterType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/FileType$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/FileType$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/FileType$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/FileType$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/FileType$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/FileType$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/FileType$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/FileType$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/FileType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/ObjectCollectionWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/io/OngoingWrite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/AbstractParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/AbstractPdfOutputParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/ConversionUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/MultipleOutputTaskParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/MultiplePdfSourceMultipleOutputParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/SingleOutputTaskParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/SinglePdfSourceMultipleOutputParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/SinglePdfSourceTaskParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/SplitParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/params/TaskParametersBuildStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/validation/ContainedIntegerValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/validation/FileTypeValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/validation/FileValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/validation/PositiveIntRangeStringValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/validation/PositiveIntegerStringValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/validation/PositiveIntegerValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/validation/RegexValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/validation/Validator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/support/validation/Validators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/task/BulkRotateParameters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/task/PdfRotationInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/InputPdfArgumentsLoadRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/ResettableView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/SetLatestStageStatusRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/StageMode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/StageMode$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/StageMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/StageStatus$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/StageStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/Theme$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/Theme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/workspace/BaseWorkspaceEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/workspace/LoadWorkspaceEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/workspace/RestorableView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/workspace/SaveWorkspaceEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/ui/workspace/WorkspaceLoadedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/update/UpdateAvailableEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/classes/org/pdfsam/update/UpdateCheckRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/NoHeadless.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/NoWindows.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/TestCycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/TestUtils$NotInstanceOf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/TestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/context/DefaultUserContextTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/module/ModuleDescriptorBuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/module/ModuleKeyValueItemTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/module/ModulePriorityTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/module/TaskExecutionRequestEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/news/LatestNewsEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/news/NewImportantNewsEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/pdf/PdfDocumentDescriptorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/pdf/PdfLoadRequestEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/premium/PremiumModuleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/premium/PremiumModulesEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/CircularLinkedListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/EncryptionUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/KeyStringValueItemTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/LRUMapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/LocaleKeyValueItemTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/ObservableAtomicReferenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/RequireUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/XmlUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/filter/BaseFileChooserFilterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/filter/FileFilterTypeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/io/ObjectCollectionWriterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/params/ConversionUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/AlwaysInvalidStringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/BlankStringDecoratorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/ContainedIntegerValidatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/DirectoryValidatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/FileTypeValidatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/FileValidatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/IntRangeStringValidatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/IntegerStringValidatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/NonBlankStringValidatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/RegexValidatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/support/validation/ValidatorsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/task/BulkRotateParametersTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/task/PdfRotationInputTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/ClearEventStudioRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/DefaultPriorityTestModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/HighPriorityTestModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/HitConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/HitTestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/InitializeAndApplyJavaFxThreadRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/InitializeJavaFxThreadRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/JavaFXInitlializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/JavaFXThreadRule$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/JavaFXThreadRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/test/LowPriorityTestModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/ui/InputPdfArgumentsLoadRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/ui/SetLatestStageStatusRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/ui/StageModeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/ui/StageStatusTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/ui/workspace/LoadWorkspaceEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/ui/workspace/SaveWorkspaceEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/ui/workspace/WorkspaceLoadedEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/target/test-classes/org/pdfsam/update/UpdateAvailableEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-extract/target/classes/org/pdfsam/extract/ExtractModule$ModuleConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-extract/target/classes/org/pdfsam/extract/ExtractModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-extract/target/classes/org/pdfsam/extract/ExtractOptionsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-extract/target/classes/org/pdfsam/extract/ExtractParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-extract/target/classes/org/pdfsam/extract/ExtractSelectionPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-extract/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-extract/target/test-classes/org/pdfsam/extract/ExtractOptionsPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-extract/target/test-classes/org/pdfsam/extract/ExtractParametersBuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-extract/target/test-classes/org/pdfsam/extract/ExtractSelectionPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/Animations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/ClearModuleEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/ClosePane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/HideOnEscapeHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/HideStageRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/HidingPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/NonExistingOutputDirectoryEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/OpenFileRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/OpenUrlRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/RadioButtonDrivenTextFieldsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/RemoveSelectedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/SetActiveModuleRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/SetDestinationRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/SetPageRangesRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/ShowPdfDescriptorRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/ShowStageRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/ToggleChangeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/UrlButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/ValidableTextField$ErrorTooltipManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/commons/ValidableTextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/help/HelpPopup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/help/HelpPopupSkin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/help/HelpUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/AddPdfVersionConstraintEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BasePdfVersionEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BaseRememberingLatestChooser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BrowsableDirectoryField$BrowseEventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BrowsableDirectoryField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BrowsableField$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BrowsableField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BrowsableFileField$BrowseEventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BrowsableFileField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BrowsableOutputDirectoryField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BrowsablePdfInputField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/BrowsablePdfOutputField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/ChangedSelectedPdfVersionEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/DestinationPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/FileChoosers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/PdfDestinationPane$DestinationPanelFields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/PdfDestinationPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/PdfVersionCombo$DefaultPdfVersionComboItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/PdfVersionCombo$PdfVersionComboItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/PdfVersionCombo$SameAsSourceComboItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/PdfVersionCombo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/PdfVersionConstrainedCheckBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/PdfVersionFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/RememberingLatestDirectoryChooserWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/RememberingLatestFileChooserWrapper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/RememberingLatestFileChooserWrapper$OpenType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/RememberingLatestFileChooserWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/RemovePdfVersionConstraintEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/io/SetLatestDirectoryEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/module/BaseTaskExecutionModule$ErrorTracker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/module/BaseTaskExecutionModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/module/Footer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/module/ModuleOwnedButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/module/OpenButton$OpenWithMenuItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/module/OpenButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/module/RunButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/module/TaskFailedButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/notification/AddNotificationRequestEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/notification/NotificationType$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/notification/NotificationType$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/notification/NotificationType$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/notification/NotificationType$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/notification/NotificationType$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/notification/NotificationType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/prefix/PrefixField$PrefixMenuItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/prefix/PrefixField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/prefix/PrefixPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/LoadingStatusIndicatorUpdater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/PasswordFieldPopup$PasswordFieldPopupContent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/PasswordFieldPopup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/PasswordFieldPopupSkin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/ShowPasswordFieldPopupRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/DuplicateSelectedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/FileColumn$1$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/FileColumn$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/FileColumn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/FileColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/IndexColumn$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/IndexColumn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/IndexColumn$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/IndexColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/IntColumn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/IntColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/LoadingColumn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/LoadingColumn$LoadingStatusCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/LoadingColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/LongColumn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/LongColumn$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/LongColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/MultipleSelectionPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/PaceColumn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/PaceColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/PageRangesColumn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/PageRangesColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/ReverseColumn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/ReverseColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionChangedEvent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionChangedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableColumn$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableColumn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableColumn$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableRowData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableToolbar$AddButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableToolbar$BaseMoveSelectedButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableToolbar$ClearButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableToolbar$MoveDownButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableToolbar$MoveUpButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableToolbar$RemoveButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/SelectionTableToolbar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/TableColumnProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/TooltippedTextFieldTableCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/MoveSelectedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/MoveType$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/MoveType$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/MoveType$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/MoveType$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/MoveType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/MultipleSelectionAndFocus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/SelectionAndFocus$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/SelectionAndFocus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/multiple/move/SingleSelectionAndFocus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/single/SingleSelectionPane$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/single/SingleSelectionPane$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/single/SingleSelectionPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/selection/single/TaskParametersBuilderSingleSelectionPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/support/CircularObservableList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/support/FXValidationSupport$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/support/FXValidationSupport$ValidationState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/support/FXValidationSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/support/Style.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/classes/org/pdfsam/ui/support/Views.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/ClosePaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/HideOnEscapeHandlerTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/HideOnEscapeHandlerTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/HideOnEscapeHandlerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/HidingPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/OpenFileRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/OpenUrlRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/RadioButtonDrivenTextFieldsPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/SetActiveModuleRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/SetDestinationRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/ShowPdfDescriptorRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/ToggleChangeListenerTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/ToggleChangeListenerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/UrlButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/commons/ValidableTextFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/AddPdfVersionConstraintEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/BasePdfVersionEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/BrowsableDirectoryFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/BrowsableDirectoryFieldUITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/BrowsableFileFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/BrowsableFileFieldUITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/BrowsableOutputDirectoryFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/BrowsablePdfInputFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/BrowsablePdfOutputFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/PdfDestinationPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/PdfDestinationPaneUITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/PdfVersionComboTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/PdfVersionConstrainedCheckBoxTest$BasePdfVersionEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/PdfVersionConstrainedCheckBoxTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/PdfVersionFilterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/RememberingLatestDirectoryChooserWrapperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/RemovePdfVersionConstraintEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/io/SetLatestDirectoryEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/module/FooterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/module/ModuleOwnedButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/module/OpenButtonTest$TestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/module/OpenButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/module/RunButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/module/TaskFailedButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/notification/AddNotificationRequestEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/prefix/PrefixFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/prefix/PrefixPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/LoadingStatusIndicatorUpdaterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/PasswordFieldPopupTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/ShowPasswordFieldPopupRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/FileColumnTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/IntegerColumnTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/LoadingColumnTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/LongColumnTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/PaceColumnTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/PageRangesColumnTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionChangedEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableRowDataTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableTest$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableToolbarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableToolbarWithoutMoveTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableWithoutDuplicateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/SelectionTableWithoutMoveTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/move/MoveSelectedEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/move/MoveTypeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/move/MultipleSelectionAndFocusTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/multiple/move/SingleSelectionAndFocusTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/single/SingleSelectionPaneTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/single/SingleSelectionPaneTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/single/SingleSelectionPaneTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/selection/single/SingleSelectionPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/support/CircularObservableListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-fx/target/test-classes/org/pdfsam/ui/support/FXValidationSupportTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/InputPdfArgumentsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/OpenFileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/PdfsamApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/PdfsamConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/UncaughtExceptionLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/WindowStatusController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/configuration/StylesConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/sound/PlaySoundController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/ContentPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/MainPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/AppContextMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/BannerButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/BannerButtons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/BannerPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/DashboardButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/LogButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/MenuButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/ModulesMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/NewsButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/WorkspaceMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/banner/WorkspaceMenuItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/AboutDashboadItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/Dashboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/DashboardButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/DashboardConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/DashboardItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/DashboardItemPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/ModulesDashboardItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/PreferencesDashboardItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/QuickbarDashboardButtonsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/about/AboutDashboardPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/modules/DashboardTile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/modules/DashboardTile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/modules/ModulesDashboardPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/modules/ModulesDashboardTile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/modules/PremiumModuleTile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/CheckForUpdatesButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/ClearStatisticsButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceAppearencePane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceBehaviorPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceBrowsableDirectoryField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceBrowsableFileField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceCheckBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceComboBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceIntTextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceOutputPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferencePane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceRadioButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceSetterOnValidState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceThumbnailsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dashboard/preference/PreferenceWorkspacePane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/ConfirmationDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/ConfirmationDialogContent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/CreateOutputDirectoryConfirmationDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/CreateOutputDirectoryDialogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/DialogStyle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/LenientExecutionConfirmationDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/LenientTaskExecutionDialogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/OpenWithDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/OpenWithDialogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/OverwriteConfirmationDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/OverwriteDialogController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/dialog/OverwriteDialogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/event/SetActiveDashboardItemRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/event/SetTitleEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/info/BaseInfoTab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/info/InfoPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/info/InfoStage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/info/InfoStageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/info/KeywordsTab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/info/SummaryTab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/ErrorLoggedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogAreaVisiblityChangedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogLevel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogLevel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogLevel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogListView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogListView$TextCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogListView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogMessageBroadcaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogPane$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogPane$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LogStage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/LoggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/MaxLogRowsChangedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/log/UpToInfoFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/news/News.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/news/NewsPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/notification/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/notification/NotificationsContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/notification/NotificationsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/notification/RemoveNotificationRequestEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/quickbar/BaseQuickbarButton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/quickbar/BaseQuickbarButton$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/quickbar/BaseQuickbarButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/quickbar/BaseQuickbarButtonsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/quickbar/ExpandButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/quickbar/QuickbarPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/workarea/ModuleButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/workarea/QuickbarModuleButtonsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/workarea/QuickbarModuleButtonsProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/classes/org/pdfsam/ui/workarea/WorkArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/InputPdfArgumentsControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/WindowStatusControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/configuration/StylesConfigTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/sound/PlaySoundControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/test/DefaultPriorityDashboardItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/ContentPaneTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/ContentPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/BannerButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/BannerPaneTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/BannerPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/DashboardButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/LogButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/MenuButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/MenuConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/ModulesMenuTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/NewsButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/SettingsMenuTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/banner/WorkspaceMenuTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/DashboardButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/DashboardItemPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/DashboardTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/DashboardTest$DisabledItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/DashboardTest$EnabledItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/DashboardTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/QuickbarDashboardButtonsPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/about/AboutDashboardPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/modules/ModulesDashboardPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/modules/ModulesDashboardTileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/CheckForUpdatesButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/ClearStatisticsButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferenceAppearencePaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferenceBrowsableDirectoryFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferenceBrowsableFileFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferenceCheckBoxTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferenceComboBoxTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferenceIntTextFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferenceOutputPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferencePaneTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferencePaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferenceRadioButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dashboard/preference/PreferenceSetterOnValidStateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/ConfirmationDialogContentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/CreateOutputDirectoryConfirmationDialogTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/CreateOutputDirectoryDialogControllerTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/CreateOutputDirectoryDialogControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/LenientExecutionConfirmationDialogTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/LenientTaskExecutionDialogControllerTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/LenientTaskExecutionDialogControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/OpenWithDialogControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/OpenWithDialogTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/OverwriteConfirmationDialogTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/OverwriteDialogControllerTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/OverwriteDialogControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/OverwriteDialogControllerUITest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/dialog/OverwriteDialogControllerUITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/info/InfoStageTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/info/InfoStageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/info/KeywordsTabTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/info/SummaryTabTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/log/LogLevelTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/log/LogListViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/log/LogMessageBroadcasterTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/log/LogMessageBroadcasterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/log/LogMessageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/log/LogPaneTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/log/LogPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/notification/NotificationsContainerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/notification/NotificationsControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/notification/RemoveNotificationRequestEventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/quickbar/BaseQuickbarButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/quickbar/ExpandButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/quickbar/QuickbarPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/workarea/ModuleButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/workarea/QuickbarModuleButtonsPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/workarea/QuickbarModuleButtonsProviderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/workarea/WorkAreaTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/workarea/WorkAreaTest$TestModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-gui/target/test-classes/org/pdfsam/ui/workarea/WorkAreaTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/DefaultI18nContext$DefaultI18nContextHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/DefaultI18nContext$DefaultI18nContextHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/DefaultI18nContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/DefaultI18nContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/I18nContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/I18nContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_af.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_ast.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_bs.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_ca.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_ckb.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_co.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_cs.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_da.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_de.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_el.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_en.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_en_GB.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_eo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_es.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_et.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_eu.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_fi.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_fr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_hr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_hu.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_hy.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_in.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_is.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_it.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_iw.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_ja.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_kab.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_ko.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_lv.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_nb.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_nl.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_oc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_pl.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_pt.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_pt_BR.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_ro.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_ru.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_sc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_sk.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_sl.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_sr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_sv.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_th.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_tr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_uk.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_zh_CN.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/Messages_zh_TW.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/SetLocaleEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/SetLocaleEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/test-classes/org/pdfsam/i18n/DefaultI18nContextTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/test-classes/org/pdfsam/i18n/DefaultI18nContextTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/test-classes/org/pdfsam/i18n/SetLocaleEventTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/test-classes/org/pdfsam/i18n/SetLocaleEventTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-merge/target/classes/org/pdfsam/merge/MergeModule$ModuleConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-merge/target/classes/org/pdfsam/merge/MergeModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-merge/target/classes/org/pdfsam/merge/MergeOptionsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-merge/target/classes/org/pdfsam/merge/MergeParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-merge/target/classes/org/pdfsam/merge/MergeSelectionPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-merge/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-merge/target/test-classes/org/pdfsam/merge/MergeOptionsPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-merge/target/test-classes/org/pdfsam/merge/MergeParametersBuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-merge/target/test-classes/org/pdfsam/merge/MergeSelectionPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-rotate/target/classes/org/pdfsam/rotate/RotateModule$ModuleConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-rotate/target/classes/org/pdfsam/rotate/RotateModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-rotate/target/classes/org/pdfsam/rotate/RotateOptionsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-rotate/target/classes/org/pdfsam/rotate/RotateParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-rotate/target/classes/org/pdfsam/rotate/RotateSelectionPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-rotate/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-rotate/target/test-classes/org/pdfsam/rotate/RotateOptionsPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-rotate/target/test-classes/org/pdfsam/rotate/RotateParametersBuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-rotate/target/test-classes/org/pdfsam/rotate/RotateSelectionPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/Services.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/module/ClearUsageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/module/ModuleServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/module/ModuleUsage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/module/PreferencesUsageDataStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/module/StatefulPreferencesUsageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/module/UsageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/news/DefaultNewsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/news/LatestNewsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/news/NewsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/news/NewsServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/pdf/BookmarksLevelSAMBoxLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/pdf/DefaultSAMBoxLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/pdf/PdfLoadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/pdf/PdfLoadService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/pdf/PdfLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/pdf/PdfServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/pdf/SAMBoxPdfLoadService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/premium/DefaultPremiumModulesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/premium/PremiumModulesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/premium/PremiumModulesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/premium/PremiumServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/task/BulkRotateTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/task/TaskExecutionController$TaskEventBroadcaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/task/TaskExecutionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/task/TaskExecutionServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/ui/DefaultStageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/ui/JsonWorkspaceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/ui/PreferencesRecentWorkspacesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/ui/RecentWorkspacesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/ui/StageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/ui/StageServiceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/ui/UIServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/ui/WorkspaceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/ui/WorkspaceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/update/DefaultUpdateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/update/UpdateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/update/UpdateServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/classes/org/pdfsam/update/UpdatesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/module/ClearUsageControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/module/ModuleUsageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/module/PreferencesUsageDataStoreTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/module/StatefulPreferencesUsageServiceTest$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/module/StatefulPreferencesUsageServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/news/DefaultNewsServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/news/LatestNewsControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/pdf/BookmarksLevelSAMBoxLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/pdf/DefaultSAMBoxLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/pdf/PdfLoadControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/pdf/SAMBoxPdfLoadServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/premium/DefaultPremiumModulesServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/premium/PremiumModulesControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/task/BulkRotateTaskTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/task/TaskExecutionControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/ui/DefaultStageServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/ui/JsonWorkspaceServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/ui/PreferencesRecentWorkspacesServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/ui/StageServiceControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/ui/WorkspaceControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/update/DefaultUpdateServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-service/target/test-classes/org/pdfsam/update/UpdatesControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitAfterPredefinedSetOfPagesRadioButton$SimpleSplitParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitAfterPredefinedSetOfPagesRadioButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitAfterRadioButton$SplitByPageParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitAfterRadioButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitByEveryRadioButton$SplitByEveryXPagesParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitByEveryRadioButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitModule$ModuleConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitOptionsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/classes/org/pdfsam/split/SplitParametersBuilderCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/test-classes/org/pdfsam/split/SplitAfterPredefinedSetOfPagesRadioButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/test-classes/org/pdfsam/split/SplitAfterRadioButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-simple-split/target/test-classes/org/pdfsam/split/SplitByEveryRadioButtonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/target/classes/org/pdfsam/splitbybookmarks/BookmarksLevelComboBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/target/classes/org/pdfsam/splitbybookmarks/SplitByBookmarksModule$ModuleConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/target/classes/org/pdfsam/splitbybookmarks/SplitByBookmarksModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/target/classes/org/pdfsam/splitbybookmarks/SplitByOutlineLevelParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/target/classes/org/pdfsam/splitbybookmarks/SplitOptionsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/target/test-classes/org/pdfsam/splitbybookmarks/BookmarksLevelComboBoxTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/target/test-classes/org/pdfsam/splitbybookmarks/SplitByOutlineLevelParametersBuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/target/test-classes/org/pdfsam/splitbybookmarks/SplitOptionsPaneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeParametersBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeParametersBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/classes/org/pdfsam/splitbysize/SizeUnit$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/classes/org/pdfsam/splitbysize/SizeUnit$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/classes/org/pdfsam/splitbysize/SizeUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/classes/org/pdfsam/splitbysize/SizeUnitRadio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/classes/org/pdfsam/splitbysize/SplitBySizeModule$ModuleConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/classes/org/pdfsam/splitbysize/SplitBySizeModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/classes/org/pdfsam/splitbysize/SplitBySizeParametersBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/classes/org/pdfsam/splitbysize/SplitOptionsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/test-classes/org/pdfsam/Cycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/test-classes/org/pdfsam/splitbysize/SizeUnitRadioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/test-classes/org/pdfsam/splitbysize/SizeUnitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/test-classes/org/pdfsam/splitbysize/SplitBySizeParametersBuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/target/test-classes/org/pdfsam/splitbysize/SplitOptionsPaneTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pdfsam-fx/target/" />
     <ignored path="$PROJECT_DIR$/pdfsam-service/target/" />
@@ -771,17 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AbstractPdfOutputParametersBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/AbstractPdfOutputParametersBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <folding>
-                <element signature="e#0#1917#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TaskParametersBuildStep.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/TaskParametersBuildStep.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -794,11 +45,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplitBySizeParametersBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SplitBySizeParametersBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeParametersBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="653">
               <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-985">
+              <caret line="262" column="25" lean-forward="true" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdfsam-basic/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
+              <folding>
+                <element signature="n#profile#3;n#profiles#0;n#project#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConversionUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="99" column="108" selection-start-line="99" selection-start-column="108" selection-end-line="99" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -861,10 +145,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>zip</find>
-      <find>assembly</find>
       <find>(size)</find>
       <find>sizeToSplitAt</find>
       <find>getOutput</find>
+      <find>assembly</find>
+      <find>assembly-plu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -882,11 +167,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pdfsam-basic/pom.xml" />
-        <option value="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" />
         <option value="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/SinglePdfSourceMultipleOutputParametersBuilder.java" />
         <option value="$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixParametersBuilder.java" />
         <option value="$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeParametersBuilder.java" />
+        <option value="$PROJECT_DIR$/pdfsam-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" />
       </list>
     </option>
   </component>
@@ -918,6 +203,67 @@
             <path>
               <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="params" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-gui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1002,7 +348,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552349176496</updated>
-      <workItem from="1552349181072" duration="11842000" />
+      <workItem from="1552349181072" duration="13049000" />
     </task>
     <task id="LOCAL-00001" summary="selection debug">
       <created>1552349367991</created>
@@ -1060,14 +406,22 @@
       <option name="project" value="LOCAL" />
       <updated>1552359440932</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Testing size #2">
+      <created>1552364001710</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552364001710</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11842000" />
+    <option name="totallyTimeSpent" value="13049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -1111,37 +465,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="selection debug" />
     <MESSAGE value="Fixed Change#3 and Tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Change#3 and Tested" />
+    <MESSAGE value="Testing size #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing size #2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="263" column="31" lean-forward="true" selection-start-line="263" selection-start-column="31" selection-end-line="263" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-basic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="232" column="56" lean-forward="true" selection-start-line="232" selection-start-column="56" selection-end-line="232" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/pdf/page/PagesSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1011">
-          <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,6 +763,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
           <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-gui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-985">
+          <caret line="262" column="25" lean-forward="true" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-basic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
+          <folding>
+            <element signature="n#profile#3;n#profiles#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="99" column="108" selection-start-line="99" selection-start-column="108" selection-end-line="99" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

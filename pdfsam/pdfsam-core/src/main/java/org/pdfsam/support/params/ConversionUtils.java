@@ -62,21 +62,25 @@ public final class ConversionUtils {
                 /* TODO- Check if the range already present in the pageRangeSet */
                 if (!pageRangeSet.isEmpty()) {
                     PageRange tmpRange = range;
+                    boolean update = true;
                     for (PageRange item : pageRangeSet) {
                         // 1-9 present | new 2-6
                         if (tmpRange.getEnd() <= item.getEnd()) {
+                            update = false;
                             continue;
                         }
                         // Present 1-9 | new 2-20
                         if (tmpRange.getStart() <= item.getEnd()) {
                             // Present 1-9 | new 5
                             if (tmpRange.getStart() == tmpRange.getEnd()) {
+                                update = false;
                                 continue;
                             }
                             // Present 1-9,10-40,50 | new 30-80
                             // Remove 50 as it is included in 41-80
                             if (item.getStart() == item.getEnd() && item.getStart() >=tmpRange.getStart() && item.getEnd() <=tmpRange.getEnd()){
                                 pageRangeSet.remove(item);
+                                update = false;
                                 continue;
                             }
 
@@ -91,8 +95,11 @@ public final class ConversionUtils {
                         }
 
                     }
-                    LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: tmp range added = {}",tmpRange);
-                    pageRangeSet.add(tmpRange);
+                    LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: SKIPPED range added = {}; update={}",tmpRange,update);
+                    if (update) {
+                        LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: tmp range added = {}",tmpRange);
+                        pageRangeSet.add(tmpRange);
+                    }
                 }else {
                     LOG.info("pdfsam-core: support: param: conversionUtils:: BUG::: else range added = {}",range);
                     pageRangeSet.add(range);
