@@ -130,7 +130,7 @@ public class PdfsamApp extends Application {
     }
 
     private void verboseIfRequired() {
-        if (rawParameters.contains("--verbose") || rawParameters.contains("-verbose") || rawParameters.contains("-v") || true) {
+        if (rawParameters.contains("--verbose") || rawParameters.contains("-verbose") || rawParameters.contains("-v")) {
             ((ch.qos.logback.classic.Logger) LoggerFactory.getLogger("org.sejda")).setLevel(Level.DEBUG);
             ((ch.qos.logback.classic.Logger) LoggerFactory.getLogger("org.sejda.sambox")).setLevel(Level.DEBUG);
             ((ch.qos.logback.classic.Logger) LoggerFactory.getLogger("org.pdfsam")).setLevel(Level.DEBUG);

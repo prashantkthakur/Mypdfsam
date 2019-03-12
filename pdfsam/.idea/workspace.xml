@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fc886a-f99c-4524-a262-1ab02ac5b639" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/SinglePdfSourceMultipleOutputParametersBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/SinglePdfSourceMultipleOutputParametersBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-gui/src/main/java/org/pdfsam/PdfsamApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-gui/src/main/java/org/pdfsam/PdfsamApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/DefaultI18nContext$DefaultI18nContextHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/DefaultI18nContext$DefaultI18nContextHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/DefaultI18nContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/DefaultI18nContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/I18nContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/I18nContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/SetLocaleEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/classes/org/pdfsam/i18n/SetLocaleEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/test-classes/org/pdfsam/i18n/DefaultI18nContextTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/test-classes/org/pdfsam/i18n/DefaultI18nContextTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-i18n/target/test-classes/org/pdfsam/i18n/SetLocaleEventTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-i18n/target/test-classes/org/pdfsam/i18n/SetLocaleEventTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-service/src/main/java/org/pdfsam/task/TaskExecutionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-service/src/main/java/org/pdfsam/task/TaskExecutionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitOptionsPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitOptionsPane.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pdfsam-fx/target/" />
     <ignored path="$PROJECT_DIR$/pdfsam-service/target/" />
@@ -27,114 +38,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DependenciesAnalyzeManager">
     <option name="includeTests" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TaskParametersBuildStep.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/TaskParametersBuildStep.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AlternateMixModule.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#0#1691#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="149">
+              <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplitBySizeParametersBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeParametersBuilder.java">
+      <file leaf-file-name="AlternateMixSelectionPaneTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdfsam-alternate-mix/src/test/java/org/pdfsam/alternatemix/AlternateMixSelectionPaneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="306">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="PdfMixInput.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/input/PdfMixInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-985">
-              <caret line="262" column="25" lean-forward="true" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="25" />
+            <state relative-caret-position="-739">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdfsam-basic/pom.xml">
+      <file leaf-file-name="SplitBySizeModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
-              <folding>
-                <element signature="n#profile#3;n#profiles#0;n#project#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="912">
+              <caret line="123" column="23" lean-forward="true" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConversionUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
+      <file leaf-file-name="RotateModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdfsam-rotate/src/main/java/org/pdfsam/rotate/RotateModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="83" column="124" selection-start-line="83" selection-start-column="124" selection-end-line="83" selection-end-column="124" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="384">
+              <caret line="74" column="45" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SinglePdfSourceMultipleOutputParametersBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/SinglePdfSourceMultipleOutputParametersBuilder.java">
+      <file leaf-file-name="MergeModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdfsam-merge/src/main/java/org/pdfsam/merge/MergeModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-              <folding>
-                <element signature="e#2130#2131#0" expanded="true" />
-                <element signature="e#2159#2160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleOrMultipleTaskOutput.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/output/SingleOrMultipleTaskOutput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskOutput.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/output/TaskOutput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SplitBySizeParameters.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/parameter/SplitBySizeParameters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="26" />
-              <folding>
-                <element signature="e#1826#1827#0" expanded="true" />
-                <element signature="e#1876#1877#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SplitBySizeParametersBuilderTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdfsam-split-by-size/src/test/java/org/pdfsam/splitbysize/SplitBySizeParametersBuilderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+            <state relative-caret-position="24">
+              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -149,7 +121,17 @@
       <find>getOutput</find>
       <find>assembly</find>
       <find>assembly-plu</find>
+      <find>true</find>
+      <find>page</find>
+      <find>range</find>
+      <find>size</find>
+      <find>PDFMix</find>
+      <find>Validate</find>
+      <find>validate</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -166,11 +148,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/SinglePdfSourceMultipleOutputParametersBuilder.java" />
         <option value="$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixParametersBuilder.java" />
         <option value="$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeParametersBuilder.java" />
         <option value="$PROJECT_DIR$/pdfsam-basic/pom.xml" />
         <option value="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java" />
+        <option value="$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitOptionsPane.java" />
+        <option value="$PROJECT_DIR$/pdfsam-gui/src/main/java/org/pdfsam/PdfsamApp.java" />
+        <option value="$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/SinglePdfSourceMultipleOutputParametersBuilder.java" />
+        <option value="$PROJECT_DIR$/pdfsam-service/src/main/java/org/pdfsam/task/TaskExecutionController.java" />
+        <option value="$PROJECT_DIR$/pdfsam-merge/src/main/java/org/pdfsam/merge/MergeOptionsPane.java" />
+        <option value="$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixModule.java" />
       </list>
     </option>
   </component>
@@ -194,14 +181,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-alternate-mix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-alternate-mix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-alternate-mix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-alternate-mix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-alternate-mix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alternatemix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -262,25 +282,128 @@
             <path>
               <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
-              <item name="pdfsam-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-merge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-merge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-merge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-merge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-merge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="merge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-rotate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-split-by-bookmarks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-split-by-bookmarks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-split-by-size" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-split-by-size" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-split-by-size" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-split-by-size" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfsam-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfsam" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsam-split-by-size" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="splitbysize" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/SP19/CS515/A1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pdfsam-merge" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -347,7 +470,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552349176496</updated>
-      <workItem from="1552349181072" duration="14659000" />
+      <workItem from="1552349181072" duration="18349000" />
+      <workItem from="1552372376074" duration="5002000" />
     </task>
     <task id="LOCAL-00001" summary="selection debug">
       <created>1552349367991</created>
@@ -426,47 +550,70 @@
       <option name="project" value="LOCAL" />
       <updated>1552366257770</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixing missed test case #3;Test2">
+      <created>1552366796334</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552366796334</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixing missed test case #3;Test2">
+      <created>1552366885094</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552366885094</updated>
+    </task>
+    <task id="LOCAL-00014" summary="#3;Tested; Working.">
+      <created>1552367941907</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552367941907</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14659000" />
+    <option name="totallyTimeSpent" value="23351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.4010582" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="right" id="Module Dependencies" weight="0.3296875" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32910052" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="right" id="UML Diagrams" type="SLIDING" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Module Dependencies" order="0" weight="0.3296875" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32910052" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32910052" />
+      <window_info anchor="right" id="Graphical Navigator" type="SLIDING" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="0" visible="true" weight="0.4010582" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32910052" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,189 +628,11 @@
     <MESSAGE value="Testing size #2" />
     <MESSAGE value="Fixing missed test case #3" />
     <MESSAGE value="Fixing missed test case #3;Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing missed test case #3;Testing" />
+    <MESSAGE value="Fixing missed test case #3;Test2" />
+    <MESSAGE value="#3;Tested; Working." />
+    <option name="LAST_COMMIT_MESSAGE" value="#3;Tested; Working." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/pdf/page/PagesSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-conversion/3.2.66/sejda-conversion-3.2.66-sources.jar!/org/sejda/conversion/AdapterUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/pdf/page/PageRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/io/FileType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/context/StringUserPreference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/module/TaskExecutionRequestEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/filter/BaseFileChooserFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/MultiplePdfSourceMultipleOutputParametersBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram//home/pkt/Documents/cs515/PDFsam/pdfsam/pdfsam-alternate-mix">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/pdfsam-alternate-mix</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.pdfsam.alternatemix">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.pdfsam.alternatemix</OriginalElement>
-          <nodes>
-            <node x="" y="">org.pdfsam.alternatemix.AlternateMixModule</node>
-            <node x="" y="">org.pdfsam.alternatemix.AlternateMixParametersBuilder</node>
-            <node x="" y="">org.pdfsam.alternatemix.AlternateMixSelectionPane</node>
-            <node x="" y="">org.pdfsam.alternatemix.AlternateMixSelectionPaneTest</node>
-            <node x="" y="">org.pdfsam.alternatemix.AlternateMixParametersBuilderTest</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="148.0" y="167.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixParametersBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/module/ModulePriority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/validation/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#1135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/SplitParametersBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/validation/Validators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="130" column="35" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#5286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/RequireUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#2624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-i18n/src/main/java/org/pdfsam/i18n/DefaultI18nContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/ObservableAtomicReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/context/UserContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
-          <folding>
-            <element signature="e#0#3090#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/module/ModuleDescriptorBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <folding>
-            <element signature="e#0#2961#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/module/ModuleCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-462">
@@ -712,32 +681,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/AbstractPdfOutputParametersBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <folding>
-            <element signature="e#0#1917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/TaskParametersBuildStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#1691#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/parameter/SplitBySizeParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="e#1826#1827#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -760,24 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/SinglePdfSourceMultipleOutputParametersBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding>
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2159#2160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeParametersBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -805,13 +736,312 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/parameter/SplitBySizeParameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="83" column="124" selection-start-line="83" selection-start-column="124" selection-end-line="83" selection-end-column="124" />
+        <state relative-caret-position="480">
+          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitOptionsPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="85" column="89" selection-start-line="85" selection-start-column="89" selection-end-line="85" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/ConfigurableProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/Pdfsam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-basic/src/main/java/org/pdfsam/basic/PdfsamBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-basic/src/main/java/org/pdfsam/basic/PdfsamBasicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-gui/src/main/java/org/pdfsam/PdfsamApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4089">
+          <caret line="132" column="117" lean-forward="true" selection-start-line="132" selection-start-column="117" selection-end-line="132" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-gui/src/main/java/org/pdfsam/InputPdfArgumentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-gui/src/main/java/org/pdfsam/configuration/StylesConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-gui/src/main/java/org/pdfsam/sound/PlaySoundController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-gui/src/main/java/org/pdfsam/PdfsamConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/ui/workspace/BaseWorkspaceEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/task/PdfRotationInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/XmlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/ObservableAtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/CircularLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/validation/FileValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/AbstractPdfOutputParametersBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#1917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/task/BulkRotateParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-basic/src/main/java/org/pdfsam/basic/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/module/TaskExecutionRequestEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-service/src/main/java/org/pdfsam/task/TaskExecutionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-service/src/main/java/org/pdfsam/task/TaskExecutionServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/ui/StageMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/module/RequiredPdfData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/SinglePdfSourceMultipleOutputParametersBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="63" column="64" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitOptionsPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1016">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1454">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-merge/test.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">org.pdfsam.support.params.SplitParametersBuilder</node>
+            <node x="" y="">org.pdfsam.support.params.SinglePdfSourceTaskParametersBuilder</node>
+            <node x="" y="">org.pdfsam.merge.MergeSelectionPane</node>
+            <node x="" y="">org.pdfsam.merge.MergeOptionsPane</node>
+            <node x="" y="">org.pdfsam.support.params.TaskParametersBuildStep</node>
+            <node x="" y="">org.pdfsam.support.params.AbstractPdfOutputParametersBuilder</node>
+            <node x="" y="">org.pdfsam.support.params.MultipleOutputTaskParametersBuilder</node>
+            <node x="" y="">org.pdfsam.support.params.AbstractParametersBuilder</node>
+            <node x="" y="">org.pdfsam.support.params.SingleOutputTaskParametersBuilder</node>
+            <node x="" y="">org.pdfsam.merge.MergeModule</node>
+            <node x="" y="">org.pdfsam.merge.MergeParametersBuilder</node>
+            <node x="" y="">org.pdfsam.support.params.ConversionUtils</node>
+            <node x="" y="">org.pdfsam.support.params.MultiplePdfSourceMultipleOutputParametersBuilder</node>
+            <node x="" y="">org.pdfsam.support.params.SinglePdfSourceMultipleOutputParametersBuilder</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="925.0" y="395.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-merge/src/main/java/org/pdfsam/merge/MergeOptionsPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="146" column="22" lean-forward="true" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#8279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-split-by-bookmarks/src/main/java/org/pdfsam/splitbybookmarks/SplitByBookmarksModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeParametersBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="34" column="28" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="39" column="28" selection-start-line="39" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-alternate-mix/src/test/java/org/pdfsam/alternatemix/AlternateMixSelectionPaneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-split-by-size/src/main/java/org/pdfsam/splitbysize/SplitBySizeModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="123" column="23" lean-forward="true" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-merge/src/main/java/org/pdfsam/merge/MergeModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-model/3.2.66/sejda-model-3.2.66-sources.jar!/org/sejda/model/input/PdfMixInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-739">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-rotate/src/main/java/org/pdfsam/rotate/RotateModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="74" column="45" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfsam-alternate-mix/src/main/java/org/pdfsam/alternatemix/AlternateMixModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
         </state>
       </provider>
     </entry>

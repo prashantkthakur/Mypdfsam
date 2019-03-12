@@ -22,6 +22,8 @@ import org.sejda.model.input.PdfFileSource;
 import org.sejda.model.output.SingleOrMultipleTaskOutput;
 import org.sejda.model.parameter.base.MultiplePdfSourceMultipleOutputParameters;
 import org.sejda.model.parameter.base.SinglePdfSourceMultipleOutputParameters;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Abstract builder for {@link SinglePdfSourceMultipleOutputParameters}.
@@ -33,6 +35,7 @@ import org.sejda.model.parameter.base.SinglePdfSourceMultipleOutputParameters;
 public abstract class SinglePdfSourceMultipleOutputParametersBuilder<P extends MultiplePdfSourceMultipleOutputParameters>
         extends AbstractPdfOutputParametersBuilder<P>
         implements SinglePdfSourceTaskParametersBuilder<P>, MultipleOutputTaskParametersBuilder<P> {
+    private  static final Logger LOG = LoggerFactory.getLogger(SinglePdfSourceMultipleOutputParametersBuilder.class);
 
     private PdfFileSource source;
     private SingleOrMultipleTaskOutput output;
@@ -58,6 +61,7 @@ public abstract class SinglePdfSourceMultipleOutputParametersBuilder<P extends M
     }
 
     protected SingleOrMultipleTaskOutput getOutput() {
+        LOG.info("SMOutParamBuilder:: BUG:: output={}; Source={}",output, source);
         return output;
     }
 
