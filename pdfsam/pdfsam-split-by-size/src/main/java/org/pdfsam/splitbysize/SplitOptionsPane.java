@@ -27,7 +27,6 @@ import java.util.Optional;
 import java.util.function.Consumer;
 
 import org.pdfsam.i18n.DefaultI18nContext;
-import org.pdfsam.support.params.ConversionUtils;
 import org.pdfsam.support.params.TaskParametersBuildStep;
 import org.pdfsam.support.validation.Validators;
 import org.pdfsam.ui.commons.ValidableTextField;
@@ -38,8 +37,6 @@ import org.pdfsam.ui.workspace.RestorableView;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.HBox;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * Panel for the Split options
@@ -48,7 +45,6 @@ import org.slf4j.LoggerFactory;
  *
  */
 class SplitOptionsPane extends HBox implements TaskParametersBuildStep<SplitBySizeParametersBuilder>, RestorableView {
-    private static final Logger LOG = LoggerFactory.getLogger(SplitOptionsPane.class);
 
     private final ValidableTextField field = new ValidableTextField();
     private ToggleGroup group = new ToggleGroup();
@@ -83,7 +79,6 @@ class SplitOptionsPane extends HBox implements TaskParametersBuildStep<SplitBySi
 
     @Override
     public void saveStateTo(Map<String, String> data) {
-        LOG.info("SplitPane:: saveStateTo:: BUG:: size {}",defaultString(field.getText()));
         data.put("size", defaultString(field.getText()));
         group.getToggles().stream().map(t -> {
             return (SizeUnitRadio) t;

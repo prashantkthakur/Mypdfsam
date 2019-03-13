@@ -63,7 +63,7 @@ import org.slf4j.Logger;
 @Auto
 public class AlternateMixModule extends BaseTaskExecutionModule {
 
-    private static final String MODULE_ID = "rotate";
+    private static final String MODULE_ID = "alternatemix";
     private  static final Logger LOG = LoggerFactory.getLogger(AlternateMixModule.class);
     private AlternateMixSelectionPane selectionPane = new AlternateMixSelectionPane(MODULE_ID);
     private BrowsablePdfOutputField destinationFileField;

@@ -228,11 +228,10 @@
 					</plugin>
 					<plugin>
 						<artifactId>maven-assembly-plugin</artifactId>
-
 						<executions>
 							<execution>
 								<id>pdfsam-assembly</id>
-                                <phase>package</phase>
+								<phase>package</phase>
 								<goals>
 									<goal>single</goal>
 								</goals>
@@ -242,8 +241,7 @@
 									<descriptors>
 										<descriptor>src/assembly/bin.xml</descriptor>
 									</descriptors>
-                                    <attach>false</attach>
-                                </configuration>
+								</configuration>
 							</execution>
 						</executions>
 					</plugin>
