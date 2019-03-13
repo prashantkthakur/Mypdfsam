@@ -60,8 +60,9 @@
 		</profile>
 		<profile>
 			<id>toolchain</id>
+
 			<activation>
-				<jdk>C:\Users\tesla\Downloads\openjdk-11.0.2\bin\java.exe</jdk>
+				<jdk>/home/pkt/Downloads/jdk-11.0.2/bin/java</jdk>
 			</activation>
 			<build>
 				<plugins>
