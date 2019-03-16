@@ -1,6 +1,6 @@
-/home/pkt/Documents/cs515/PDFsam/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitParametersBuilderCreator.java
-/home/pkt/Documents/cs515/PDFsam/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitModule.java
-/home/pkt/Documents/cs515/PDFsam/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitByEveryRadioButton.java
-/home/pkt/Documents/cs515/PDFsam/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitAfterPredefinedSetOfPagesRadioButton.java
-/home/pkt/Documents/cs515/PDFsam/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitOptionsPane.java
-/home/pkt/Documents/cs515/PDFsam/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitAfterRadioButton.java
+/home/pkt/Documents/cs515/cs515-s19-a2-BugHunters-pdfsam401/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitParametersBuilderCreator.java
+/home/pkt/Documents/cs515/cs515-s19-a2-BugHunters-pdfsam401/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitModule.java
+/home/pkt/Documents/cs515/cs515-s19-a2-BugHunters-pdfsam401/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitAfterRadioButton.java
+/home/pkt/Documents/cs515/cs515-s19-a2-BugHunters-pdfsam401/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitAfterPredefinedSetOfPagesRadioButton.java
+/home/pkt/Documents/cs515/cs515-s19-a2-BugHunters-pdfsam401/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitByEveryRadioButton.java
+/home/pkt/Documents/cs515/cs515-s19-a2-BugHunters-pdfsam401/pdfsam/pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitOptionsPane.java
