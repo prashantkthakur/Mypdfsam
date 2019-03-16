@@ -12,9 +12,9 @@ org/pdfsam/pdf/SAMBoxPdfLoadService.class
 org/pdfsam/ui/WorkspaceController.class
 org/pdfsam/update/UpdateServiceConfig.class
 org/pdfsam/module/UsageService.class
-org/pdfsam/pdf/PdfLoadService.class
 org/pdfsam/task/TaskExecutionServiceConfig.class
 org/pdfsam/task/TaskExecutionController.class
+org/pdfsam/pdf/PdfLoadService.class
 org/pdfsam/ui/JsonWorkspaceService.class
 org/pdfsam/news/DefaultNewsService.class
 org/pdfsam/task/BulkRotateTask.class
@@ -27,8 +27,8 @@ org/pdfsam/pdf/PdfLoadController.class
 org/pdfsam/ui/WorkspaceService.class
 org/pdfsam/module/ModuleUsage.class
 org/pdfsam/ui/StageService.class
-org/pdfsam/Services.class
 org/pdfsam/news/NewsService.class
+org/pdfsam/Services.class
 org/pdfsam/ui/PreferencesRecentWorkspacesService.class
 org/pdfsam/premium/PremiumModulesController.class
 org/pdfsam/ui/StageServiceController.class

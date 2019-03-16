@@ -62,7 +62,7 @@
 			<id>toolchain</id>
 
 			<activation>
-				<jdk>/home/pkt/Downloads/jdk-11.0.2/bin/java</jdk>
+				<jdk>/s/chopin/b/grad/bbkstha/Softwares/jdk-11.0.2</jdk>
 			</activation>
 			<build>
 				<plugins>
@@ -358,11 +358,11 @@
 				<artifactId>sejda-core</artifactId>
 				<version>${sejda.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>org.sejda</groupId>
-				<artifactId>sejda-sambox</artifactId>
-				<version>${sejda.version}</version>
-			</dependency>
+			<!--<dependency>-->
+				<!--<groupId>org.sejda</groupId>-->
+				<!--<artifactId>sejda-sambox</artifactId>-->
+				<!--<version>${sejda.version}</version>-->
+			<!--</dependency>-->
 			<dependency>
 				<groupId>org.sejda</groupId>
 				<artifactId>sejda-injector</artifactId>
