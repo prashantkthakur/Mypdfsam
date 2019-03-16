@@ -62,7 +62,7 @@
 			<id>toolchain</id>
 
 			<activation>
-				<jdk>/s/chopin/b/grad/bbkstha/Softwares/jdk-11.0.2</jdk>
+				<jdk>(, 11)</jdk>
 			</activation>
 			<build>
 				<plugins>
