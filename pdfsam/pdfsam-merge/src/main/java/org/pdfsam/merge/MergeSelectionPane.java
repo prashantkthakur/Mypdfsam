@@ -47,6 +47,8 @@ public class MergeSelectionPane extends MultipleSelectionPane
         implements TaskParametersBuildStep<MergeParametersBuilder> {
     private static final Logger LOG = LoggerFactory.getLogger(MergeSelectionPane.class);
 
+    private static final String BASE_SIZE = "0";
+
     public MergeSelectionPane(String ownerModule) {
         super(ownerModule, true, true,
                 new SelectionTableColumn<?>[] { new LoadingColumn(ownerModule), FileColumn.NAME, LongColumn.SIZE,
@@ -57,7 +59,7 @@ public class MergeSelectionPane extends MultipleSelectionPane
     @Override
     public void apply(MergeParametersBuilder builder, Consumer<String> onError) {
         try {
-            table().getItems().stream().filter(s -> !Objects.equals("0", trim(s.pageSelection.get())))
+            table().getItems().stream().filter(s -> !Objects.equals(BASE_SIZE, trim(s.pageSelection.get())))
                     .map(i -> new PdfMergeInput(i.descriptor().toPdfFileSource(), i.toPageRangeSet()))
                     .forEach(builder::addInput);
             if (!builder.hasInput()) {
