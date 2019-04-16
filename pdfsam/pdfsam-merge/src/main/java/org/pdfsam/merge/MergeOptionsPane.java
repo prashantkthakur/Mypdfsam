@@ -59,6 +59,15 @@ class MergeOptionsPane extends VBox
     private ComboBox<KeyStringValueItem<OutlinePolicy>> outline = new ComboBox<>();
     private ComboBox<KeyStringValueItem<ToCPolicy>> toc = new ComboBox<>();
 
+    private static final int ORIGIN_PANE_X = 0;
+    private static final int ORIGIN_PANE_X = 0;
+    private static final int ORIGIN_PANE_Y = 0;
+    private static final int MID_PANE_X = 1;
+    private static final int MID_PANE_Y = 1;
+    private static final int END_PANE_X = 2;
+    private static final int END_PANE_Y = 2;
+
+
     MergeOptionsPane() {
         super(5);
         I18nContext i18n = DefaultI18nContext.getInstance();
@@ -86,10 +95,10 @@ class MergeOptionsPane extends VBox
         acroForms.getItems().add(keyValue(AcroFormPolicy.FLATTEN, i18n.i18n("Flatten")));
         acroForms.getItems().add(keyValue(AcroFormPolicy.DISCARD, i18n.i18n("Discard forms")));
         acroForms.setId("acroFormsCombo");
-        options.add(new Label(i18n.i18n("Interactive forms (AcroForms):")), 0, 0);
+        options.add(new Label(i18n.i18n("Interactive forms (AcroForms):")), ORIGIN_PANE_X, ORIGIN_PANE_Y);
         acroForms.setMaxWidth(Double.POSITIVE_INFINITY);
-        options.add(acroForms, 1, 0);
-        options.add(helpIcon(i18n.i18n("What to do in case one or more input documents contain Acro Forms")), 2, 0);
+        options.add(acroForms, MID_PANE_X, ORIGIN_PANE_Y);
+        options.add(helpIcon(i18n.i18n("What to do in case one or more input documents contain Acro Forms")), END_PANE_X, ORIGIN_PANE_Y);
 
         outline.getItems().add(keyValue(OutlinePolicy.RETAIN, i18n.i18n("Retain bookmarks")));
         outline.getItems().add(keyValue(OutlinePolicy.DISCARD, i18n.i18n("Discard bookmarks")));
@@ -99,21 +108,21 @@ class MergeOptionsPane extends VBox
                 i18n.i18n("Retain bookmarks as one entry for each merged document")));
 
         outline.setId("outlineCombo");
-        options.add(new Label(i18n.i18n("Bookmarks handling:")), 0, 1);
+        options.add(new Label(i18n.i18n("Bookmarks handling:")), ORIGIN_PANE_X, MID_PANE_Y);
         outline.setMaxWidth(Double.POSITIVE_INFINITY);
-        options.add(outline, 1, 1);
-        options.add(helpIcon(i18n.i18n("What to do in case one or more input documents contain bookmarks")), 2, 1);
+        options.add(outline, MID_PANE_X, MID_PANE_Y);
+        options.add(helpIcon(i18n.i18n("What to do in case one or more input documents contain bookmarks")), END_PANE_X, MID_PANE_Y);
 
         toc.getItems().add(keyValue(ToCPolicy.NONE, i18n.i18n("Don't generate")));
         toc.getItems().add(keyValue(ToCPolicy.FILE_NAMES, i18n.i18n("Generate from file names")));
         toc.getItems().add(keyValue(ToCPolicy.DOC_TITLES, i18n.i18n("Generate from documents titles")));
 
         toc.setId("tocCombo");
-        options.add(new Label(i18n.i18n("Table of contents:")), 0, 2);
+        options.add(new Label(i18n.i18n("Table of contents:")), ORIGIN_PANE_X, END_PANE_Y);
         toc.setMaxWidth(Double.POSITIVE_INFINITY);
-        options.add(toc, 1, 2);
-        options.add(helpIcon(i18n.i18n("Set if a table of contents should be added to the generated PDF document")), 2,
-                2);
+        options.add(toc, MID_PANE_X, END_PANE_Y);
+        options.add(helpIcon(i18n.i18n("Set if a table of contents should be added to the generated PDF document")), END_PANE_X,
+                END_PANE_Y);
         options.getStyleClass().addAll(Style.GRID.css());
 
         getStyleClass().addAll(Style.CONTAINER.css());
