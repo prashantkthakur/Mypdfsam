@@ -16,6 +16,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 package org.pdfsam.ui.notification;
 
 import static org.pdfsam.support.RequireUtils.requireNotBlank;
@@ -28,9 +29,9 @@ import static org.pdfsam.support.RequireUtils.requireNotNull;
  *
  */
 public class AddNotificationRequestEvent {
-    public final NotificationType type;
-    public final String message;
-    public final String title;
+    private final NotificationType type;
+    private final String message;
+    private final String title;
 
     public AddNotificationRequestEvent(NotificationType type, String message, String title) {
         requireNotNull(type, "Notification type cannot be null");
@@ -40,4 +41,17 @@ public class AddNotificationRequestEvent {
         this.title = title;
     }
 
+    private NotificationType getNotificationType(){
+        return this.type;
+    }
+    private String getMessage(){
+        return this.message;
+    }
+    private String getTitle(){
+        return this.title;
+    }
 }
+
+
+
+

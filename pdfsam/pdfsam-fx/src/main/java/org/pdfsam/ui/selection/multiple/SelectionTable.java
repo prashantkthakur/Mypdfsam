@@ -163,17 +163,22 @@ public class SelectionTable extends TableView<SelectionTableRowData> implements 
         contextMenu.getItems().add(setDestinationItem);
 
         if (hasRanges) {
-            MenuItem setPageRangesItem = createMenuItem(DefaultI18nContext.getInstance().i18n("Set as range for all"),
-                    MaterialDesignIcon.FORMAT_INDENT_INCREASE);
-            setPageRangesItem.setOnAction(e -> eventStudio().broadcast(
-                    new SetPageRangesRequest(getSelectionModel().getSelectedItem().pageSelection.get()),
-                    getOwnerModule()));
-            setPageRangesItem.setAccelerator(new KeyCodeCombination(KeyCode.R, KeyCombination.CONTROL_DOWN));
-            selectionChangedConsumer = selectionChangedConsumer
-                    .andThen(e -> setPageRangesItem.setDisable(!e.isSingleSelection()));
-            contextMenu.getItems().add(setPageRangesItem);
+            hasRangesRefactored(contextMenu);
         }
         contextMenu.getItems().add(new SeparatorMenuItem());
+    }
+
+    private void hasRangesRefactored(ContextMenu contextMenu){
+
+        MenuItem setPageRangesItem = createMenuItem(DefaultI18nContext.getInstance().i18n("Set as range for all"),
+                MaterialDesignIcon.FORMAT_INDENT_INCREASE);
+        setPageRangesItem.setOnAction(e -> eventStudio().broadcast(
+                new SetPageRangesRequest(getSelectionModel().getSelectedItem().pageSelection.get()),
+                getOwnerModule()));
+        setPageRangesItem.setAccelerator(new KeyCodeCombination(KeyCode.R, KeyCombination.CONTROL_DOWN));
+        selectionChangedConsumer = selectionChangedConsumer
+                .andThen(e -> setPageRangesItem.setDisable(!e.isSingleSelection()));
+        contextMenu.getItems().add(setPageRangesItem);
     }
 
     private void initItemsSectionContextMenu(ContextMenu contextMenu, boolean canDuplicate, boolean canMove) {
