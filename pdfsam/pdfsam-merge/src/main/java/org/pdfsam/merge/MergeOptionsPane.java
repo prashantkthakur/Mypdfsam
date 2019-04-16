@@ -60,13 +60,11 @@ class MergeOptionsPane extends VBox
     private ComboBox<KeyStringValueItem<ToCPolicy>> toc = new ComboBox<>();
 
     private static final int ORIGIN_PANE_X = 0;
-    private static final int ORIGIN_PANE_X = 0;
     private static final int ORIGIN_PANE_Y = 0;
     private static final int MID_PANE_X = 1;
     private static final int MID_PANE_Y = 1;
     private static final int END_PANE_X = 2;
     private static final int END_PANE_Y = 2;
-
 
     MergeOptionsPane() {
         super(5);
